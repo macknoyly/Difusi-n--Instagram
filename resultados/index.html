@@ -1,33 +1,57 @@
-
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-        content="width=device-width, initial-scale=1">
-
-        <title>Apoya esta publicación</title>
-
-        <meta name="description"
-        content="Ayuda a apoyar esta publicación de Instagram.">
-
-    </head>
-
-    <body style="text-align:center;font-family:Arial;padding:40px">
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apoya esta publicación</title>
+    <meta name="description" content="Ayuda a apoyar esta publicación de Instagram.">
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 30px 15px;
+            background: #f8f8f8;
+            color: #222;
+        }
+        .contenedor {
+            max-width: 420px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 16px;
+        }
+        .boton {
+            display: inline-block;
+            background: #d62976;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            width: 220px;
+            max-width: 100%;
+            margin: 25px auto 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
         <h1>¡Tu apoyo cuenta!</h1>
-
         <p>Regala un voto a esta publicación.</p>
 
-        <a href="https://www.instagram.com/p/DfIYBpnPrii/?cplk=cml2d25ycnNleGlr"
-        style="background:#d62976;color:white;
-        padding:15px 25px;border-radius:10px;
-        text-decoration:none">
-
-        VOTAR AHORA
-
+        <a class="boton"
+           href="https://www.instagram.com/p/DfIYBpnPrii/?cplk=cml2d25ycnNleGlr"
+           target="_blank">
+           VOTAR AHORA
         </a>
 
-    </body>
-    </html>
-    
+        <h2>O escanea el código QR</h2>
+        <p>Abre la cámara de tu teléfono y escanea la imagen.</p>
+
+        <img src="voto.png" alt="Código QR para acceder a Instagram">
+    </div>
+</body>
+</html>
